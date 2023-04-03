@@ -56,20 +56,26 @@ body{
 }
 
 .controls{
-        display: none;
-        grid-template-columns: repeat(4,1fr);
-        padding: 20px;
-        text-align: center;
+      display: grid;
+                grid-template-columns: repeat(4,1fr);
+                padding: 20px;
+                text-align: center;
+                
         
 
         
 }
 .controls button{
        
-        border: none;
-        background: transparent;
-        cursor: pointer;
-        color: #E3F2FD;
+       border: none;
+
+                background-color: transparent;
+                cursor: pointer;
+                color: #E3F2FD;
+                border-right: 1px solid;
+                border-left: 1px solid;
+                border-right-color: #212837;
+                border-left-color: #212837;
 }
 
 /*@media screen and (max-width: 800px) {
